@@ -9,7 +9,7 @@ class Estudante:
 # setter
     @idade.setter
     def idade(self, idade):
-        self.__idade = idade
+        self.__idade = idade #privado
         
                        
 estudante = Estudante('Vanessa', 19)
